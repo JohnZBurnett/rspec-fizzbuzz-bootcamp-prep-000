@@ -1,18 +1,19 @@
 require 'pry'
 def fizzbuzz(value)
 
+  # first, check if divisible by 3 only
   if value % 3 == 0 && value % 5 != 0
     return "Fizz"
-  end
 
+  # if divisible by 5 only 
   elsif value % 3 != 0  && value % 5 == 0
     return "Buzz"
-  end
-
+  
+  # check if divisible by 3 and 5
   elsif value % 3 == 0 && value % 5 == 0
     return "FizzBuzz"
-  end
 
+  # if divisible by neither 
   else
     return nil
   end
