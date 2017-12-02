@@ -5,15 +5,15 @@ def fizzbuzz(value)
   if value % 3 == 0 && value % 5 != 0
     return "Fizz"
 
-  # if divisible by 5 only 
+  # if divisible by 5 only
   elsif value % 3 != 0  && value % 5 == 0
     return "Buzz"
-  
+
   # check if divisible by 3 and 5
   elsif value % 3 == 0 && value % 5 == 0
     return "FizzBuzz"
 
-  # if divisible by neither 
+  # if divisible by neither
   else
     return nil
   end
