@@ -3,19 +3,19 @@ def fizzbuzz(value)
 
   if value % 3 == 0 && value % 5 != 0
     return "Fizz"
-  end 
+  end
 
   elsif value % 3 != 0  && value % 5 == 0
     return "Buzz"
-  end 
+  end
 
   elsif value % 3 == 0 && value % 5 == 0
     return "FizzBuzz"
-  end 
+  end
 
   else
     return nil
-  end 
-  
+  end
+
   binding.pry
 end
