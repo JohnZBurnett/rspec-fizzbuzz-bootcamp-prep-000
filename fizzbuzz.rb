@@ -1,4 +1,4 @@
 require 'pry'
 def fizzbuzz
-
-end 
+  binding.pry
+end
